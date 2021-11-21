@@ -26,7 +26,7 @@ Tools used by this project
 
 ### Test API <br/>
 default host:  http://localhost:8080/ <br/>
-2 Restful API provide
+2 Restful API provided :
 1. <strong>register user </strong> POST http://localhost:8080/registration/registerUser
 2. <strong>get information </strong> GET http://localhost:8080/registration/information
 
