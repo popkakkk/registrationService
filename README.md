@@ -27,14 +27,14 @@ Tools used by this project
 ### Test API <br/>
 default host:  http://localhost:8080/ <br/>
 2 Restful API provide
-1. <strong>register user </strong> http://localhost:8080/registration/registerUser
-2. <strong>get information </strong> http://localhost:8080/registration/information
+1. <strong>register user </strong> POST http://localhost:8080/registration/registerUser
+2. <strong>get information </strong> GET http://localhost:8080/registration/information
 
 
 
 ##### Example request 1  
   register user</br>
-  endpoint : http://localhost:8080/registration/registerUser</br>
+  endpoint : POST http://localhost:8080/registration/registerUser</br>
   headers  : </br>
              Content-Type :application/json</br>
   {</br>
@@ -48,7 +48,7 @@ default host:  http://localhost:8080/ <br/>
 
  ##### Example request 2 
    - register user </br>
-  endpoint : http://localhost:8080/registration/information </br>
+  endpoint : GET http://localhost:8080/registration/information </br>
   headers  : </br>
             Authorization : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwb3BwYXRpcGEiLCJleHAiOjE2Mzc1MTgyODAsImlhdCI6MTYzNzQ4MjI4MH0.qaSLWn4mPlke8XKAJ-PXHabrPjRYbHloBRLrbr_uID0</br>
 
