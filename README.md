@@ -1,7 +1,7 @@
-# registrationService
-registrationService Test 
+### Registration Service
 
-Project use
+
+Tools used by this project
 - [x] spring boot 2.6.0
 - [x] spring security
 - [x] authen token JWT
@@ -15,24 +15,24 @@ Project use
 - GIT 
 
 ##### Installation step
-1. git clone 
-2. git checkout 
+1. git clone https://github.com/popkakkk/registrationService.git
+2. git checkout main
 3. install or update dependency maven from pom.xml
-4. setup datasource at src/main/resources/application.properties
+4. setup datasource at src/main/resources/<strong>application.properties</strong>
    - spring.datasource.url=...
    - spring.datasource.username=...
    - spring.datasource.password=...
-5. go to src/main/java/com/test/patipan/RegistrationServiceApplication.java and run 
+5. go to src/main/java/com/test/patipan/<strong>RegistrationServiceApplication.java</strong> and run 
 
-##### Test API 
-default host:  http://localhost:8080/
-2 API provide
-1. register user http://localhost:8080/registration/registerUser
-2. get information http://localhost:8080/registration/information
+### Test API <br/>
+default host:  http://localhost:8080/ <br/>
+2 Restful API provide
+1. <strong>register user </strong> http://localhost:8080/registration/registerUser
+2. <strong>get information </strong> http://localhost:8080/registration/information
 
 
 
-##### example request 1  
+##### Example request 1  
   register user</br>
   endpoint : http://localhost:8080/registration/registerUser</br>
   headers  : </br>
@@ -46,7 +46,7 @@ default host:  http://localhost:8080/
     "lastName" : "cena" </br>
  }
 
- ##### example request 2 
+ ##### Example request 2 
    - register user </br>
   endpoint : http://localhost:8080/registration/information </br>
   headers  : </br>
