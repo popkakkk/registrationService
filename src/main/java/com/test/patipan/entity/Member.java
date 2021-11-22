@@ -18,6 +18,8 @@ public class Member {
     @Id
     @Column(length = 1)
     private Integer id;
+
+    @Column(nullable = false, length = 10)
     private String memberName;
 
 
